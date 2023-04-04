@@ -1,17 +1,20 @@
 def insertionSort(array):
-    for i in range(1,len(array)-1):
+    for i in range(1,len(array)):  
         key=array[i]
-        for j in range(i-1,0,-1):    #mistake
-            if(key>array[j]):      
-                temp=array[j]
-                array[j]=array[j-1]
-                array[j-1]=temp
+        for j in range(i-1,-1,-1):    # if you want don't use while like this
+            if(key > array[j]):
+                break
+            temp=array[j]
+            array[j]=key
+            array[j+1]=temp
+
+        
                         
     return array
 
 
 
-unsorted=[-3,-9,0,8,2,11]
-insertionSort(unsorted)
-print(unsorted)
+unsorted=[-3,-9,0,8,2,11,-100,7,777,-1000]
+sorted=insertionSort(unsorted)
+print(sorted)
 

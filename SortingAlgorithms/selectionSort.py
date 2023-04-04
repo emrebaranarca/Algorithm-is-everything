@@ -1,7 +1,7 @@
 def selectionSort(array):
     for i in range(len(array)):
         minIndex=i
-        for j in range(i+1,len(array)-1):
+        for j in range(i+1,len(array)):
             if array[j] < array[minIndex] :
                 minIndex=j
         temp=array[i]
@@ -12,6 +12,6 @@ def selectionSort(array):
 
 
 
-unsorted=[15,0,-9,88,3]
-selectionSort(unsorted)
-print(unsorted)
+unsorted=[8,-9,1,3,83,5]
+sorted=selectionSort(unsorted)
+print(sorted)

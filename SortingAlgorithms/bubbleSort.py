@@ -5,7 +5,7 @@ def bubbleSort(array):
             isSorted=False
 
     if(isSorted==False):
-        for i in range(0,len(array)):    # len(array)-1 koymak algoritmayı değiştirmiyor
+        for i in range(0,len(array)-1):   
             for j in range(0,len(array)-1-i):
                 if(array[j]>array[j+1]):
                     n=array[j+1]
