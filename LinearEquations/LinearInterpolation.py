@@ -24,7 +24,7 @@ elif(g(x1,a,b,c)*g(x2,a,b,c)>0):
 
 else:
     for i in range(MAX_ITER):
-        midPoint=(x1+x2)/2
+        midPoint=x2-g(x2,a,b,c)*(x1-x2)//(g(x1,a,b,c)-g(x2,a,b,c))
         if(g(midPoint,a,b,c)==0):
             print("root is",midPoint)
             break
