@@ -1,7 +1,7 @@
 MAX_ITER=250
 
 def g(x,a,b,c):
-    return a*x**2-3*x-4
+    return a*x**2+b*x+c
 
 a=int(input("ax^2+bx+c | a:"))
 b=int(input("ax^2+bx+c | b:"))

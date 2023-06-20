@@ -27,4 +27,4 @@ for i in range(n):
     xi2yi+=xi[i]**2*yi[i]
     xi3yi+=xi[i]**3*yi[i]
 
-print(xi_sum,xi_sum2,xi_sum3,xi_sum4,xiyi,xi2yi,yi_sum,n,xi_sum5,xi3yi,xi_sum6)
+print(n,xi_sum,xi_sum2,yi_sum,xi_sum,xi_sum2,xi_sum3,xiyi,xi_sum2,xi_sum3,xi_sum4,xi2yi,xi_sum3,xi_sum4,xi_sum5,xi3yi)

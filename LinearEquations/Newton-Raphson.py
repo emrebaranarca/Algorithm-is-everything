@@ -1,10 +1,10 @@
 MAX_ITER=250
 
 def f(x,a,b,c):
-    return a*x**2-3*x-4
+    return a*x**2+b*x+c
 
 def f_derivative(x,a,b,c):
-    return 2*a*x - 3
+    return 2*a*x + b
 
 a=int(input("ax^2+bx+c | a:"))
 b=int(input("ax^2+bx+c | b:"))
