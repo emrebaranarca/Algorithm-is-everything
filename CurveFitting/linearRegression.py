@@ -13,4 +13,4 @@ a1= (n*xiyi - sum(xi)*sum(yi)) / (n*xi2-sum(xi)**2)
 a0= sum(yi)/n - (sum(xi)/n) * a1 
 
 print("y = " + str(a0) + " + " + str(a1) + "x")
-print(a0+a1*6)
+print(a0+a1*7)
